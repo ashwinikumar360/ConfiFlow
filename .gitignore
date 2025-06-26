@@ -1,0 +1,302 @@
+# ConfiFlow - Git Ignore File
+# Author: Ashwini Kumar Tarai
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js and Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Frontend Build Output
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Frontend Environment and Config
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# Python Testing and Coverage
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+app.db
+database/
+*.sql
+
+# Log Files
+*.log
+logs/
+log/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Upload and Media Files
+uploads/
+media/
+static/uploads/
+user_uploads/
+
+# AI Model Files
+models/
+*.model
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+
+# Configuration Files with Secrets
+config.json
+secrets.json
+.secrets
+credentials.json
+service-account.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.yaml.local
+*.yml.local
+
+# SSL Certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# Backup Files
+*.backup
+*.bak
+*~
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation Build
+docs/_build/
+docs/build/
+site/
+
+# Testing
+.coverage
+.nyc_output
+coverage/
+test-results/
+playwright-report/
+test-results.xml
+
+# Package Manager Lock Files (keep these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Local Development
+.local/
+local/
+dev/
+development/
+
+# N8N Data
+.n8n/
+n8n-data/
+
+# Ollama Data
+.ollama/
+ollama-data/
+
+# Redis
+dump.rdb
+
+# Elasticsearch
+elasticsearch-data/
+
+# Monitoring and Analytics
+.monitoring/
+analytics/
+
+# Cache Directories
+.cache/
+cache/
+.npm/
+.yarn/
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Directory Used by Tools
+coverage/
+.nyc_output/
+
+# Grunt Intermediate Storage
+.grunt
+
+# Bower Dependency Directory
+bower_components
+
+# Lock Files for Optional Dependencies
+npm-shrinkwrap.json
+
+# Optional REPL History
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity File
+.yarn-integrity
+
+# dotenv Environment Variables File
+.env.test
+
+# Parcel-bundler Cache
+.cache
+.parcel-cache
+
+# Next.js Build Output
+.next
+
+# Nuxt.js Build / Generate Output
+.nuxt
+dist
+
+# Gatsby Files
+.cache/
+public
+
+# Storybook Build Outputs
+.out
+.storybook-out
+
+# Temporary Folders
+tmp/
+temp/
+
+# Editor Directories and Files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Project Specific
+# Add any project-specific files or directories to ignore below
+research_data/
+processed_documents/
+generated_content/
+workflow_outputs/
+
